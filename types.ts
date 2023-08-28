@@ -8,6 +8,7 @@ export type CategoryType = {
   id: string;
   name: string;
   imageUrl: string;
+  billboard: BillboardType;
 };
 
 export type ProductType = {
