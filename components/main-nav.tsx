@@ -14,7 +14,7 @@ function MainNav({ data }: MainNavProps) {
   const routes = data.map((route: any) => ({
     href: `/category/${route.id}`,
     label: route.name,
-    isActive: pathname === `/category/${route.id}`,
+    isActive: pathname.includes(`/category/${route.id}`),
   }));
 
   return (
@@ -25,7 +25,7 @@ function MainNav({ data }: MainNavProps) {
           href={route.href}
           className={cn(
             "text-sm font-medium transition-colors hover:text-black",
-            route.active ? "text-black " : "text-neutral-500"
+            route.isActive ? "text-black " : "text-neutral-500"
           )}
         >
           {route.label}
