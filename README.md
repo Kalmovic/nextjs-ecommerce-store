@@ -24,7 +24,7 @@ https://github.com/Kalmovic/nextjs-ecommerce-store/assets/42631135/a0092f3e-c494
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ecommerce-store.git
+git clone https://github.com/Kalmovic/nextjs-ecommerce-store.git
 ```
 
 ### Install packages
